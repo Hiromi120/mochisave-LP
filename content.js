@@ -189,9 +189,9 @@ const LP_CONTENT = {
   },
 
   contact: {
-    phoneNumber: "090-1234-5678",
+    phoneNumber: "092-260-8247",
     phoneLabel: "電話で相談する",
-    phoneSubText: "受付時間 8:00〜20:00",
+    phoneSubText: "受付時間 8:00〜18:00",
     phoneIcon: "phone",
     lineUrl: "https://line.me/R/ti/p/@example",
     lineLabel: "LINEで相談する",
