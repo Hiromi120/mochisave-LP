@@ -1,13 +1,16 @@
 (() => {
   "use strict";
 
-  const content = window.LP_CONTENT || LP_CONTENT;
+  const content = window.LP_CONTENT || (typeof LP_CONTENT !== "undefined" ? LP_CONTENT : null);
   const app = document.getElementById("app");
   const pageTitle = document.getElementById("pageTitle");
   const pageDescription = document.getElementById("pageDescription");
+  const seo = (content && content.seo) || {};
 
-  if (pageTitle) pageTitle.textContent = content.seo.title;
-  if (pageDescription) pageDescription.setAttribute("content", content.seo.description);
+  if (!content || !app) return;
+
+  if (pageTitle && seo.title) pageTitle.textContent = seo.title;
+  if (pageDescription && seo.description) pageDescription.setAttribute("content", seo.description);
 
   const telHref = `tel:${content.contact.phoneNumber.replace(/[^0-9+]/g, "")}`;
 

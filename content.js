@@ -84,9 +84,14 @@ const LP_CONTENT = {
   },
 
   seo: {
-    title: "モチセーブ｜福岡のエアコン取付け・取外しサービス",
+    title: "福岡のエアコン取付け・取外しならモチセーブ",
     description:
-      "福岡県でエアコン取付け・取外し・移設・クリーニングの相談ならモチセーブへ。見積り無料、丁寧な事前説明、明朗会計で安心してご相談いただけます。"
+      "福岡県でエアコン取付け・取外し・移設・クリーニングならモチセーブ。安心価格・追加料金なし・最短即日対応。",
+    url: "https://lp.mochisave.jp",
+    ogImage: "https://lp.mochisave.jp/assets/images/ogp.jpg",
+    favicon: "./favicon.ico",
+    robots: "index,follow",
+    canonical: "https://lp.mochisave.jp/"
   },
 
   // 画像パス：assets/images/ 内の画像名に合わせて変更してください。
