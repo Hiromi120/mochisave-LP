@@ -193,7 +193,7 @@ const LP_CONTENT = {
     phoneLabel: "電話で相談する",
     phoneSubText: "受付時間 8:00〜18:00",
     phoneIcon: "phone",
-    lineUrl: "https://line.me/R/ti/p/@example",
+    lineUrl: "https://lin.ee/VEQJfBD",
     lineLabel: "LINEで相談する",
     lineSubText: "24時間受付中",
     lineIcon: "chat",
